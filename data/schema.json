@@ -1,0 +1,64 @@
+{
+  "tables": {
+    "defects": [
+      "defect",
+      "building",
+      "part",
+      "category",
+      "opened",
+      "fixed",
+      "verified_urgent"
+    ],
+    "ratings": [
+      "report",
+      "defect",
+      "inspector",
+      "date",
+      "evidence",
+      "grade",
+      "reason",
+      "blind"
+    ],
+    "inspector_roles": [
+      "inspector",
+      "part",
+      "max_grade",
+      "expert",
+      "available_from"
+    ],
+    "review_jobs": [
+      "job",
+      "defect",
+      "inspector",
+      "state",
+      "opened",
+      "deadline"
+    ]
+  },
+  "references": [
+    [
+      "ratings",
+      "defect",
+      "defects",
+      "defect"
+    ],
+    [
+      "ratings",
+      "inspector",
+      "inspector_roles",
+      "inspector"
+    ],
+    [
+      "review_jobs",
+      "defect",
+      "defects",
+      "defect"
+    ],
+    [
+      "review_jobs",
+      "inspector",
+      "inspector_roles",
+      "inspector"
+    ]
+  ]
+}

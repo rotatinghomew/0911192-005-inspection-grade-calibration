@@ -1,0 +1,17 @@
+report,defect,inspector,date,evidence,grade,reason,blind
+e01,d01,I1,2026-02-02,F01,soon,initial,no
+e02,d01,I2,2026-02-03,F01,urgent,random,yes
+e03,d01,I3,2026-02-13,F03,routine,followup,no
+e04,d02,I1,2026-02-03,F04,routine,initial,no
+e05,d02,I2,2026-02-03,F04,soon,dispute,yes
+e06,d03,I2,2026-02-05,F06,urgent,initial,no
+e07,d03,I3,2026-02-05,F06,soon,dispute,yes
+e08,d04,I2,2026-02-05,F08,routine,initial,no
+e09,d04,I3,2026-02-05,F08,soon,random,yes
+e10,d05,I3,2026-02-06,F10,urgent,initial,no
+e11,d06,I1,2026-02-06,F11,soon,initial,no
+e12,d06,X1,2026-02-06,F11,soon,random,yes
+e13,d07,I3,2026-02-07,F13,routine,initial,no
+e14,d07,X1,2026-02-07,F13,soon,random,yes
+e15,d08,I2,2026-02-07,F15,urgent,initial,no
+e16,d03,X2,2026-02-14,F06,urgent,dispute,yes

@@ -1,0 +1,4 @@
+job,defect,inspector,state,opened,deadline
+j1,d03,X2,assigned,2026-02-08,2026-02-15
+j2,d01,I3,done,2026-02-08,2026-02-14
+j3,d05,,,2026-02-09,2026-02-14

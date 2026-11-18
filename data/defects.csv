@@ -1,0 +1,9 @@
+defect,building,part,category,opened,fixed,verified_urgent
+d01,A1,wall,crack,2026-02-02,2026-02-12,no
+d02,A1,drain,clog,2026-02-03,,no
+d03,A2,wall,crack,2026-02-05,,yes
+d04,B1,wall,seep,2026-02-04,,no
+d05,B2,drain,leak,2026-02-06,,no
+d06,C1,wall,crack,2026-02-06,,no
+d07,C2,wall,crack,2026-02-07,,no
+d08,C2,drain,leak,2026-02-07,,no

@@ -1,0 +1,9 @@
+inspector,part,max_grade,expert,available_from
+I1,wall,soon,no,2026-02-08
+I1,drain,soon,no,2026-02-08
+I2,wall,urgent,no,2026-02-08
+I2,drain,urgent,no,2026-02-09
+I3,wall,soon,no,2026-02-08
+I3,drain,urgent,no,2026-02-10
+X1,wall,urgent,yes,2026-02-12
+X2,wall,urgent,yes,2026-02-14
