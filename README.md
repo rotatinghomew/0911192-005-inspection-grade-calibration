@@ -19,5 +19,14 @@ CSV 使用 UTF-8 和逗号分隔。值留空表示这条资料未给出该字段
 
 ```sh
 python3 inspect_inputs.py
-python3 -m unittest discover -s tests -v
+python3 -m unittest discover -s tests -t . -v
 ```
+
+业务分析（评级校准网络、待复核件资格审查、补样优先级）：
+
+```sh
+python3 calibration.py
+```
+
+分析口径与本期数据的结论见 `ANALYSIS.md`；业务规则测试在 `tests/test_calibration.py`。
+
